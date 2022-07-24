@@ -5,10 +5,6 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func deleteDuplicates(head *ListNode) *ListNode {
-	if head == nil || head.Next == nil
-}
-
 func main() {
 
 }

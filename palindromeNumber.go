@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func isPalindrome(x int) bool {
+func isPalindromeNumber(x int) bool {
 	if x < 0 {
 		return false
 	}
@@ -22,5 +22,5 @@ func isPalindrome(x int) bool {
 }
 
 func main() {
-	fmt.Println(isPalindrome(0))
+	fmt.Println(isPalindromeNumber(0))
 }
